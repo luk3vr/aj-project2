@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #153B65;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 0.4px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 0.4px solid white;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.carousel {
+    display: none;
+}
+
+.text-content {
+    font-weight: 500;
+}
+
+.title1 {
+    color: #00B7B1;
+    font-weight: 700;
+}
+
+.cards-desktop {
+    display: none;
+}
+
+.card {
+    border: none;
+    width: 85%;
+}
+
+.card-title {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.solutions {
+    background-color: #1E6FB8;
+}
+
+.bg-image2 {
+    margin-top: -5rem;
+}
+
+.text-content2 {
+    color: white;
+}
+
+.title2 {
+    font-weight: 700;
+}
+
+.title2-custom {
+    color: #00B7B1;
+    text-decoration: underline;
+}
+
+.image1 {
+    width: 90%;
+}
+
+.content-image {
+    display: none;
+}
+
+.meeting-d {
+    display: none;
+}
+
+.meeting {
+    background-color: #153B65;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.title3 {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.title3-custom {
+    color: #00B7B1;
+}
+
+.email-form {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    width: 60%;
+}
+
+.send-btn {
+    background-color: #00B7B1;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    width: 25%;
+}
+
+.send-btn:hover {
+    background-color: #018984;
+}
+
+.boxes1 {
+    width: 100%;
+}
+
+.minititle {
+    color: #153B65;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.contact {
+    background-color: #1E6FB8;
+}
+
+.title4 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.contact-box {
+    color: white;
+}
+
+.icon {
+    width: 1.8rem;
+}
+
+.text-content4 {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    width: 100%;
+    background-color: #00B7B1;
+}
+
+.input-name {
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.65rem;
+}
+
+.input-email {
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.65rem;
+}
+
+.input-tel {
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.65rem;
+}
+
+.input-subject {
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.65rem;
+}
+
+.input-textarea {
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    height: 19rem;
+    padding: 0.65rem;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+} 
+
+.send-btn2 {
+    border: none;
+    border-radius: 2rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #00B7B1;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #153B65;
+    color: white;
+}
+
+.logo {
+    width: 12rem;
+    height: 9.5rem;
+}
+
+.footer-info {
+    border-left: 0.18rem solid #00B7B1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-content5-custom {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.text-content5 {
+    font-size: 0.7rem;
+}
+/*375-390px e 667px*/
+
+@media (min-width:390px) {
+
+    .carousel{
+        display: block;
+    }
+
+    .image-aj {
+        display: none;
+    }
+
+    .cards-cel {
+        display: none;
+    }
+
+    .bg-image1 {
+        display: none;
+    }
+
+    .cards-desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .card-title-d {
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    
+    .content-image {
+        display: block;
+    }
+
+    .content-image-d {
+        width: 15rem;
+        margin-left: 5rem;
+        margin-right: 2rem;
+    }
+
+    .solutions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text-content2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .image1 {
+        width: 30rem;
+        margin-right: 2rem;
+    }
+
+    .meeting-cel {
+        display: none;
+    }
+
+    .meeting {
+        padding: 8rem;
+    }
+
+    .meeting-d {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .text-content-meeting {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.05rem;
+        font-weight: 700;
+        margin-left: -20rem;
+        margin-top: -5rem;
+        margin-bottom: -6rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 28rem;
+        padding-right: 5rem ;
+        background-color: #00B7B1;
+        height: 20rem;
+        border-radius: 20rem;
+    }
+
+    .text-content2-meeting-custom {
+        text-decoration: underline;
+        color: #153B65;
+    }
+
+    .container1 {
+        padding-right: 6rem;
+        font-weight: 700;
+    }
+
+    .boxes2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-around;
+    }
+
+    .left {
+        margin-left: 3rem;
+    }
+
+    .right {
+        margin-top: -4rem;
+        margin-left: 10rem;
+        padding-left: 2rem;
+    }
+
+    .input-name {
+        width: 70%;
+    }
+
+    .input-email {
+        width: 70%;
+    }
+
+    .input-tel {
+        width: 70%;
+    }
+
+    .input-subject {
+        width: 70%;
+    }
+
+    .input-textarea {
+        width: 70%;
+    }
+
+    .send-btn2 {
+        width: 6rem;
+        margin-right: auto;
+    }
+
+    footer {
+        display: none;
+    }
+
+
+}

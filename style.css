@@ -241,7 +241,7 @@ footer {
 }
 /*375-390px e 667px*/
 
-@media (min-width:390px) {
+@media (min-width:840px) {
 
     .carousel{
         display: block;

@@ -10,7 +10,7 @@
 
 .nav-link {
     color: white;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
     border-bottom: 0.4px solid transparent;
 }
@@ -46,7 +46,7 @@
 }
 
 .card-title {
-    font-size: 11px;
+    font-size: 0.7rem;
     font-weight: 700;
 }
 
@@ -154,12 +154,6 @@
     font-weight: 500;
 }
 
-.navbar-collapse.collapsing,
-.navbar-collapse.show {
-    width: 100%;
-    background-color: #00B7B1;
-}
-
 .input-name {
     border: none;
     border-radius: 1rem;
@@ -215,14 +209,20 @@
     font-weight: 500;
 }
 
-footer {
+.footer-cel {
     background-color: #153B65;
     color: white;
 }
 
 .logo {
     width: 12rem;
-    height: 9.5rem;
+    height: 12rem;
+}
+
+.footer-cel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-info {
@@ -239,9 +239,35 @@ footer {
 .text-content5 {
     font-size: 0.7rem;
 }
+
+.footer-d {
+    display: none;
+}
+
 /*375-390px e 667px*/
 
-@media (min-width:840px) {
+@media (min-width:420px) {
+    .carousel{
+        display: block;
+    }
+
+    .image-aj {
+        display: none;
+    }
+
+    .card {
+        border: none;
+        width: 70%;
+    }
+    
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+}
+
+@media (min-width:968px) {
 
     .carousel{
         display: block;
@@ -262,6 +288,13 @@ footer {
     .cards-desktop {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .card-d {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
@@ -270,7 +303,8 @@ footer {
         font-size: 0.8rem;
         font-weight: 700;
         margin-top: 1rem;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
+        padding-bottom: 4rem;
     }
     
     .content-image {
@@ -391,9 +425,50 @@ footer {
         margin-right: auto;
     }
 
-    footer {
-        display: none;
+    .footer-cel {
+        display: none !important;
     }
 
+    .footer-d {
+        background-color: #153B65;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 3.5rem;
+    }
 
+    .navbar2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+    }
+
+    .link-navbar2 {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+
+    .link-navbar2:hover {
+        color: #4E7DC7;
+    }
+
+    .contact-list {
+        color: white;
+    }
+
+    .whatsapp-link {
+        width: 1.5rem;
+        margin-right: 0.7rem;
+    }
+
+    .linkedin-link {
+        width: 1.5rem;
+    }
+
+    .contact1, .contact2, .contact3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
